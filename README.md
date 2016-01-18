@@ -1,49 +1,24 @@
-# Zetsu
+#Clean Blog by Start Bootstrap - Jekyll Version
 
-> **Zetsu** - is a clean theme for Jekyll :smirk:
+The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-> :warning:
-  This theme requires ruby and rubygems installed
+###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
 
-* [x] Clean layout
-* [x] Resposive layout
-* [x] Preprocessor SASS
-* [x] CSS minified
-* [x] HTML minified
-* [x] Pagination
-* [x] Syntax highlight
-* [x] Author config
-* [x] Social links
-* [x] Share posts
-* [x] Comments with Disqus
+## Before You Begin
 
----
+In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
 
-### Start in 4 steps
+It should look like this:
+`baseurl: ""`
 
-1. Download or clone repo `git clone git@github.com:nandomoreirame/zetsu.git`
-2. Enter the folder: `cd zetsu/`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+## What's Included
 
-Access, [localhost:4000/zetsu](http://localhost:4000/zetsu/)
+A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
 
-### Deploy in Github pages in 2 steps
+A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
 
-1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
-2. Run `rake site:publish` for build and publish on Github
+You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
 
-[Demo](http://nandomoreira.me/zetsu/)
+## Support
 
-![Zetsu - free Jekyll theme](/screenshot.png)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
-
-Enjoy :yum:
+Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
